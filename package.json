@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "food aap",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "core-js": "^3.10.1",
+    "fractional": "^1.0.0",
+    "parcel": "^2.0.0-beta.2",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.26.3"
+  }
+}
+
+
+
